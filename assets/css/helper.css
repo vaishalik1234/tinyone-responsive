@@ -1,0 +1,38 @@
+	
+	.mb-60{
+		margin-bottom:6rem;
+	}
+	.mb-100{
+		margin-bottom:10rem;
+	}
+	
+	:root{
+		--pri-color : #fbdb00;
+		--sec-color : #313841;
+		--tri-color: #555555;
+		--dark-color : #010101;
+		--white-color: #ffffff;
+		--li-color: #afafaf;
+	}
+	
+	 /* 10px == 1 rem; */
+	.pri-heading{
+		font-weight:bold;
+		font-size: 3.2rem;
+		color:var(--dark-color);
+	}
+	.sec-heading{
+		font-size:2rem;
+		color:var(--dark-color);
+	}
+	.para{
+		font-size:1.6rem;
+		color: var(--tri-color);
+	}
+	.footer .para-info{
+		color: var(--li-color);
+		}
+	.para-info {
+		font-size: 1.6rem;		
+		font-weight: 400;	
+	}	
